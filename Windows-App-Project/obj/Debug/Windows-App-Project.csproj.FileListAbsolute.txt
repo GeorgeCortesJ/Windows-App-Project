@@ -1,0 +1,14 @@
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\bin\Debug\Windows-App-Project.exe.config
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\bin\Debug\Windows-App-Project.exe
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\bin\Debug\Windows-App-Project.pdb
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\bin\Debug\Guna.UI2.dll
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows-App-Project.csproj.AssemblyReference.cache
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows_App_Project.FrmMain.resources
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows_App_Project.Properties.Resources.resources
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows-App-Project.csproj.GenerateResource.cache
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows-App-Project.csproj.CoreCompileInputs.cache
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows-.57E5794C.Up2Date
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows-App-Project.exe
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows-App-Project.pdb
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows-App-Project.exe.config
+C:\Users\jyuri\Desktop\Windows-App-Project\Windows-App-Project\obj\Debug\Windows_App_Project.FrmLogin.resources
