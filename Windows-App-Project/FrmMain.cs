@@ -9,11 +9,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Windows_App_Project {
-    public partial class FrmMain : Form {
+    public partial class FrmMain : Form{
+
+        public static string token = null;
+
+        public static string Usuario = null;
         public FrmMain() {
             InitializeComponent();
         }
-
+        
         private void FrmMain_Load(object sender, EventArgs e) {
             this.notifyIcon1.ShowBalloonTip(15);
 
@@ -52,5 +56,9 @@ namespace Windows_App_Project {
             }
         }
 
+        private void BSalir_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

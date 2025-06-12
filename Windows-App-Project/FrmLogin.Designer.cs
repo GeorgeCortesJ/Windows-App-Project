@@ -44,9 +44,10 @@
             this.pLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pLogo.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pLogo.ForeColor = System.Drawing.Color.LightGray;
-            this.pLogo.Location = new System.Drawing.Point(124, 37);
+            this.pLogo.Location = new System.Drawing.Point(165, 46);
+            this.pLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pLogo.Name = "pLogo";
-            this.pLogo.Size = new System.Drawing.Size(165, 151);
+            this.pLogo.Size = new System.Drawing.Size(220, 186);
             this.pLogo.TabIndex = 0;
             // 
             // txtUser
@@ -61,16 +62,16 @@
             this.txtUser.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUser.DisabledState.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.txtUser.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUser.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.ForeColor = System.Drawing.Color.Transparent;
+            this.txtUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUser.ForeColor = System.Drawing.Color.Black;
             this.txtUser.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUser.Location = new System.Drawing.Point(38, 286);
-            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUser.Location = new System.Drawing.Point(51, 352);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(5);
             this.txtUser.Name = "txtUser";
             this.txtUser.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtUser.PlaceholderText = "Nombre de Usuario";
             this.txtUser.SelectedText = "";
-            this.txtUser.Size = new System.Drawing.Size(331, 49);
+            this.txtUser.Size = new System.Drawing.Size(441, 60);
             this.txtUser.TabIndex = 1;
             this.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -86,16 +87,17 @@
             this.txtPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPass.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.ForeColor = System.Drawing.Color.Transparent;
+            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.ForeColor = System.Drawing.Color.Black;
             this.txtPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPass.Location = new System.Drawing.Point(38, 361);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPass.Location = new System.Drawing.Point(51, 444);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(5);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtPass.PlaceholderText = "Contraseña";
             this.txtPass.SelectedText = "";
-            this.txtPass.Size = new System.Drawing.Size(331, 46);
+            this.txtPass.Size = new System.Drawing.Size(441, 57);
             this.txtPass.TabIndex = 2;
             this.txtPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPass.UseSystemPasswordChar = true;
@@ -108,22 +110,25 @@
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.btnLogin.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(124, 454);
+            this.btnLogin.Location = new System.Drawing.Point(165, 559);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(165, 45);
+            this.btnLogin.Size = new System.Drawing.Size(220, 55);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Entrar";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // labelLogin
             // 
             this.labelLogin.AutoSize = true;
-            this.labelLogin.Font = new System.Drawing.Font("Cascadia Code PL", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLogin.ForeColor = System.Drawing.Color.Black;
-            this.labelLogin.Location = new System.Drawing.Point(73, 227);
+            this.labelLogin.Location = new System.Drawing.Point(97, 279);
+            this.labelLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(271, 35);
+            this.labelLogin.Size = new System.Drawing.Size(253, 39);
             this.labelLogin.TabIndex = 4;
             this.labelLogin.Text = "Inicio de sesión";
             // 
@@ -131,10 +136,10 @@
             // 
             this.guna2Separator1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Separator1.Location = new System.Drawing.Point(50, 328);
+            this.guna2Separator1.Location = new System.Drawing.Point(67, 404);
             this.guna2Separator1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(309, 10);
+            this.guna2Separator1.Size = new System.Drawing.Size(412, 12);
             this.guna2Separator1.TabIndex = 5;
             this.guna2Separator1.UseTransparentBackground = true;
             // 
@@ -142,10 +147,10 @@
             // 
             this.guna2Separator2.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Separator2.Location = new System.Drawing.Point(50, 400);
+            this.guna2Separator2.Location = new System.Drawing.Point(67, 492);
             this.guna2Separator2.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Separator2.Name = "guna2Separator2";
-            this.guna2Separator2.Size = new System.Drawing.Size(309, 10);
+            this.guna2Separator2.Size = new System.Drawing.Size(412, 12);
             this.guna2Separator2.TabIndex = 6;
             this.guna2Separator2.UseTransparentBackground = true;
             // 
@@ -161,17 +166,18 @@
             this.closeBox.FillColor = System.Drawing.Color.White;
             this.closeBox.ForeColor = System.Drawing.Color.Black;
             this.closeBox.IconColor = System.Drawing.Color.Black;
-            this.closeBox.Location = new System.Drawing.Point(364, 0);
+            this.closeBox.Location = new System.Drawing.Point(485, 0);
+            this.closeBox.Margin = new System.Windows.Forms.Padding(4);
             this.closeBox.Name = "closeBox";
-            this.closeBox.Size = new System.Drawing.Size(45, 29);
+            this.closeBox.Size = new System.Drawing.Size(60, 36);
             this.closeBox.TabIndex = 7;
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(408, 545);
+            this.ClientSize = new System.Drawing.Size(544, 671);
             this.Controls.Add(this.closeBox);
             this.Controls.Add(this.guna2Separator2);
             this.Controls.Add(this.guna2Separator1);
@@ -182,6 +188,7 @@
             this.Controls.Add(this.pLogo);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";

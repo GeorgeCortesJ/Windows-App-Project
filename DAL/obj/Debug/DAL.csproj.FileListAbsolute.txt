@@ -1,0 +1,6 @@
+C:\Users\sjohn\OneDrive\Escritorio\ProyectoLenguajes\Windows-App-Project\DAL\bin\Debug\DAL.dll
+C:\Users\sjohn\OneDrive\Escritorio\ProyectoLenguajes\Windows-App-Project\DAL\bin\Debug\DAL.pdb
+C:\Users\sjohn\OneDrive\Escritorio\ProyectoLenguajes\Windows-App-Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\sjohn\OneDrive\Escritorio\ProyectoLenguajes\Windows-App-Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\sjohn\OneDrive\Escritorio\ProyectoLenguajes\Windows-App-Project\DAL\obj\Debug\DAL.dll
+C:\Users\sjohn\OneDrive\Escritorio\ProyectoLenguajes\Windows-App-Project\DAL\obj\Debug\DAL.pdb

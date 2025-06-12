@@ -48,7 +48,7 @@
             this.btnHistorialClientes = new System.Windows.Forms.Button();
             this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BSalir = new System.Windows.Forms.Button();
             this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             this.menuTransition = new System.Windows.Forms.Timer(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
@@ -75,9 +75,10 @@
             this.closeBox.FillColor = System.Drawing.Color.Transparent;
             this.closeBox.ForeColor = System.Drawing.SystemColors.ControlText;
             this.closeBox.IconColor = System.Drawing.Color.Black;
-            this.closeBox.Location = new System.Drawing.Point(933, 0);
+            this.closeBox.Location = new System.Drawing.Point(1244, 0);
+            this.closeBox.Margin = new System.Windows.Forms.Padding(4);
             this.closeBox.Name = "closeBox";
-            this.closeBox.Size = new System.Drawing.Size(45, 29);
+            this.closeBox.Size = new System.Drawing.Size(60, 36);
             this.closeBox.TabIndex = 0;
             // 
             // minBox
@@ -86,9 +87,10 @@
             this.minBox.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.minBox.FillColor = System.Drawing.Color.Transparent;
             this.minBox.IconColor = System.Drawing.Color.Black;
-            this.minBox.Location = new System.Drawing.Point(831, 0);
+            this.minBox.Location = new System.Drawing.Point(1108, 0);
+            this.minBox.Margin = new System.Windows.Forms.Padding(4);
             this.minBox.Name = "minBox";
-            this.minBox.Size = new System.Drawing.Size(45, 29);
+            this.minBox.Size = new System.Drawing.Size(60, 36);
             this.minBox.TabIndex = 1;
             // 
             // maxBox
@@ -97,9 +99,10 @@
             this.maxBox.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
             this.maxBox.FillColor = System.Drawing.Color.Transparent;
             this.maxBox.IconColor = System.Drawing.Color.Black;
-            this.maxBox.Location = new System.Drawing.Point(882, 0);
+            this.maxBox.Location = new System.Drawing.Point(1176, 0);
+            this.maxBox.Margin = new System.Windows.Forms.Padding(4);
             this.maxBox.Name = "maxBox";
-            this.maxBox.Size = new System.Drawing.Size(45, 29);
+            this.maxBox.Size = new System.Drawing.Size(60, 36);
             this.maxBox.TabIndex = 2;
             // 
             // guna2BorderlessForm1
@@ -112,8 +115,9 @@
             // 
             this.pcbMenu.Image = ((System.Drawing.Image)(resources.GetObject("pcbMenu.Image")));
             this.pcbMenu.Location = new System.Drawing.Point(1, 1);
+            this.pcbMenu.Margin = new System.Windows.Forms.Padding(4);
             this.pcbMenu.Name = "pcbMenu";
-            this.pcbMenu.Size = new System.Drawing.Size(51, 47);
+            this.pcbMenu.Size = new System.Drawing.Size(68, 58);
             this.pcbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcbMenu.TabIndex = 4;
             this.pcbMenu.TabStop = false;
@@ -128,17 +132,19 @@
             this.panelHeader.Controls.Add(this.closeBox);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
+            this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(978, 50);
+            this.panelHeader.Size = new System.Drawing.Size(1304, 62);
             this.panelHeader.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cascadia Code PL", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(58, 12);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(77, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 25);
+            this.label1.Size = new System.Drawing.Size(254, 29);
             this.label1.TabIndex = 5;
             this.label1.Text = "BIG FOOD SERVICES";
             // 
@@ -156,41 +162,45 @@
             this.sidebarMenu.Controls.Add(this.guna2Separator6);
             this.sidebarMenu.Controls.Add(this.panel5);
             this.sidebarMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sidebarMenu.Location = new System.Drawing.Point(0, 50);
+            this.sidebarMenu.Location = new System.Drawing.Point(0, 62);
+            this.sidebarMenu.Margin = new System.Windows.Forms.Padding(4);
             this.sidebarMenu.Name = "sidebarMenu";
-            this.sidebarMenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.sidebarMenu.Size = new System.Drawing.Size(245, 467);
+            this.sidebarMenu.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.sidebarMenu.Size = new System.Drawing.Size(327, 574);
             this.sidebarMenu.TabIndex = 6;
             // 
             // guna2Separator3
             // 
             this.guna2Separator3.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.guna2Separator3.Location = new System.Drawing.Point(13, 3);
+            this.guna2Separator3.Location = new System.Drawing.Point(17, 4);
+            this.guna2Separator3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator3.Name = "guna2Separator3";
-            this.guna2Separator3.Size = new System.Drawing.Size(158, 10);
+            this.guna2Separator3.Size = new System.Drawing.Size(211, 12);
             this.guna2Separator3.TabIndex = 14;
             this.guna2Separator3.UseTransparentBackground = true;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.btnInicio);
-            this.panel1.Location = new System.Drawing.Point(13, 19);
+            this.panel1.Location = new System.Drawing.Point(17, 24);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(211, 54);
+            this.panel1.Size = new System.Drawing.Size(281, 66);
             this.panel1.TabIndex = 7;
             // 
             // btnInicio
             // 
             this.btnInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.btnInicio.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.ForeColor = System.Drawing.Color.White;
             this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
             this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.Location = new System.Drawing.Point(-7, -12);
+            this.btnInicio.Location = new System.Drawing.Point(-9, -15);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(4);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnInicio.Size = new System.Drawing.Size(225, 73);
+            this.btnInicio.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnInicio.Size = new System.Drawing.Size(300, 90);
             this.btnInicio.TabIndex = 8;
             this.btnInicio.Text = "   Inicio";
             this.btnInicio.UseVisualStyleBackColor = false;
@@ -199,31 +209,34 @@
             // 
             this.guna2Separator1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator1.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2Separator1.Location = new System.Drawing.Point(13, 79);
+            this.guna2Separator1.Location = new System.Drawing.Point(17, 98);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(211, 10);
+            this.guna2Separator1.Size = new System.Drawing.Size(281, 12);
             this.guna2Separator1.TabIndex = 12;
             this.guna2Separator1.UseTransparentBackground = true;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.btnClientes);
-            this.panel2.Location = new System.Drawing.Point(13, 95);
+            this.panel2.Location = new System.Drawing.Point(17, 118);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(211, 54);
+            this.panel2.Size = new System.Drawing.Size(281, 66);
             this.panel2.TabIndex = 9;
             // 
             // btnClientes
             // 
             this.btnClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.btnClientes.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.ForeColor = System.Drawing.Color.White;
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(-11, -9);
+            this.btnClientes.Location = new System.Drawing.Point(-15, -11);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(4);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnClientes.Size = new System.Drawing.Size(229, 71);
+            this.btnClientes.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnClientes.Size = new System.Drawing.Size(305, 87);
             this.btnClientes.TabIndex = 8;
             this.btnClientes.Text = "     Clientes";
             this.btnClientes.UseVisualStyleBackColor = false;
@@ -232,31 +245,34 @@
             // 
             this.guna2Separator4.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator4.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2Separator4.Location = new System.Drawing.Point(13, 155);
+            this.guna2Separator4.Location = new System.Drawing.Point(17, 192);
+            this.guna2Separator4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator4.Name = "guna2Separator4";
-            this.guna2Separator4.Size = new System.Drawing.Size(211, 10);
+            this.guna2Separator4.Size = new System.Drawing.Size(281, 12);
             this.guna2Separator4.TabIndex = 13;
             this.guna2Separator4.UseTransparentBackground = true;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.btnMenu);
-            this.panel4.Location = new System.Drawing.Point(13, 171);
+            this.panel4.Location = new System.Drawing.Point(17, 212);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(211, 54);
+            this.panel4.Size = new System.Drawing.Size(281, 66);
             this.panel4.TabIndex = 11;
             // 
             // btnMenu
             // 
             this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.btnMenu.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenu.ForeColor = System.Drawing.Color.White;
             this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
             this.btnMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMenu.Location = new System.Drawing.Point(-7, -13);
+            this.btnMenu.Location = new System.Drawing.Point(-9, -16);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnMenu.Size = new System.Drawing.Size(225, 77);
+            this.btnMenu.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnMenu.Size = new System.Drawing.Size(300, 95);
             this.btnMenu.TabIndex = 8;
             this.btnMenu.Text = " Menu";
             this.btnMenu.UseVisualStyleBackColor = false;
@@ -265,9 +281,10 @@
             // 
             this.guna2Separator5.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator5.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2Separator5.Location = new System.Drawing.Point(13, 231);
+            this.guna2Separator5.Location = new System.Drawing.Point(17, 286);
+            this.guna2Separator5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator5.Name = "guna2Separator5";
-            this.guna2Separator5.Size = new System.Drawing.Size(211, 10);
+            this.guna2Separator5.Size = new System.Drawing.Size(281, 12);
             this.guna2Separator5.TabIndex = 13;
             this.guna2Separator5.UseTransparentBackground = true;
             // 
@@ -275,22 +292,24 @@
             // 
             this.panel3.Controls.Add(this.btnHistorialClientes);
             this.panel3.ForeColor = System.Drawing.Color.Transparent;
-            this.panel3.Location = new System.Drawing.Point(13, 247);
+            this.panel3.Location = new System.Drawing.Point(17, 306);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(211, 54);
+            this.panel3.Size = new System.Drawing.Size(281, 66);
             this.panel3.TabIndex = 10;
             // 
             // btnHistorialClientes
             // 
             this.btnHistorialClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.btnHistorialClientes.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistorialClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistorialClientes.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnHistorialClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnHistorialClientes.Image")));
             this.btnHistorialClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistorialClientes.Location = new System.Drawing.Point(-8, -12);
+            this.btnHistorialClientes.Location = new System.Drawing.Point(-11, -15);
+            this.btnHistorialClientes.Margin = new System.Windows.Forms.Padding(4);
             this.btnHistorialClientes.Name = "btnHistorialClientes";
-            this.btnHistorialClientes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnHistorialClientes.Size = new System.Drawing.Size(226, 78);
+            this.btnHistorialClientes.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnHistorialClientes.Size = new System.Drawing.Size(301, 96);
             this.btnHistorialClientes.TabIndex = 8;
             this.btnHistorialClientes.Text = "      Historial";
             this.btnHistorialClientes.UseVisualStyleBackColor = false;
@@ -299,42 +318,47 @@
             // 
             this.guna2Separator6.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator6.FillColor = System.Drawing.Color.DarkGray;
-            this.guna2Separator6.Location = new System.Drawing.Point(13, 307);
+            this.guna2Separator6.Location = new System.Drawing.Point(17, 380);
+            this.guna2Separator6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator6.Name = "guna2Separator6";
-            this.guna2Separator6.Size = new System.Drawing.Size(211, 10);
+            this.guna2Separator6.Size = new System.Drawing.Size(281, 12);
             this.guna2Separator6.TabIndex = 13;
             this.guna2Separator6.UseTransparentBackground = true;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.button1);
+            this.panel5.Controls.Add(this.BSalir);
             this.panel5.Controls.Add(this.guna2Separator2);
-            this.panel5.Location = new System.Drawing.Point(13, 323);
+            this.panel5.Location = new System.Drawing.Point(17, 400);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(211, 54);
+            this.panel5.Size = new System.Drawing.Size(281, 66);
             this.panel5.TabIndex = 12;
             // 
-            // button1
+            // BSalir
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.button1.Font = new System.Drawing.Font("Cascadia Code PL", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-7, -13);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(225, 77);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "  Salir";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
+            this.BSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BSalir.ForeColor = System.Drawing.Color.White;
+            this.BSalir.Image = ((System.Drawing.Image)(resources.GetObject("BSalir.Image")));
+            this.BSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BSalir.Location = new System.Drawing.Point(-9, -16);
+            this.BSalir.Margin = new System.Windows.Forms.Padding(4);
+            this.BSalir.Name = "BSalir";
+            this.BSalir.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.BSalir.Size = new System.Drawing.Size(300, 95);
+            this.BSalir.TabIndex = 8;
+            this.BSalir.Text = "  Salir";
+            this.BSalir.UseVisualStyleBackColor = false;
+            this.BSalir.Click += new System.EventHandler(this.BSalir_Click);
             // 
             // guna2Separator2
             // 
             this.guna2Separator2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Separator2.Location = new System.Drawing.Point(3, 0);
+            this.guna2Separator2.Location = new System.Drawing.Point(4, 0);
+            this.guna2Separator2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator2.Name = "guna2Separator2";
-            this.guna2Separator2.Size = new System.Drawing.Size(158, 10);
+            this.guna2Separator2.Size = new System.Drawing.Size(211, 12);
             this.guna2Separator2.TabIndex = 13;
             this.guna2Separator2.UseTransparentBackground = true;
             // 
@@ -354,13 +378,14 @@
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(978, 517);
+            this.ClientSize = new System.Drawing.Size(1304, 636);
             this.Controls.Add(this.sidebarMenu);
             this.Controls.Add(this.panelHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMain";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -399,7 +424,7 @@
         private System.Windows.Forms.Button btnMenu;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BSalir;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator4;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator5;
